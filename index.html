@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./logoo.png">
+    <script src="https://kit.fontawesome.com/5893d3afc7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./ass.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            
+                <p>Web-Developer</p>
+                <h1>Hi, I'm <span>Aafreen</span> <br>Shaik From Nellore</h1>
+            </div>
+        </div>
+
+    </div>
+    
+<!--About-->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./about.png" alt="about" class="img">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m an Enthusiastic Computer Science Student wants to pursue career in
+                    the domain of Web-Development and having passion towards Editing &
+                    Photography.
+                    </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Web-Development</span><br>Frontend Development</li>
+                        <li><span>Editing</span><br>images,videos,posters...</li>
+                        <li><span>Content-Development</span><br> Creating understandable content</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Web-Developer Intern</span><br>Indstack</li>
+                        <li><span>Web-Developer</span><br>Value Laden</li>
+                        <li><span>Web-Developer Intern</span><br>Oasis InfoByte</li>
+                        <li><span>Web-Developer Intern</span><br>CodTech IT Solutions</li>
+                        <li><span>Web-Developer Intern</span><br>Bharath Interns </li>
+                        <li><span>Content Ddeveloper</span><br>Value Laden Sep 2023-Oct 2023</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2021-2025</span><br> Graduating in Audisankara College of Engineering & Technology</li>
+                        <li><span>2019-2021</span><br>Intermediate from Priyadarshini Junior College </li>
+                        <li><span>SSC</span><br>Schooling from SSL Angels </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development involves creating websites and web applications using languages such as HTML, CSS, and JavaScript for frontend design and interactivity. Backend development manages server-side operations, data storage, and communication between the frontend and databases. </p>
+                <a href="#">Learn more..</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h2>Editing</h2>
+                <p>Editing involves refining written content to enhance clarity, coherence, and overall quality. It encompasses tasks such as correcting grammar, punctuation, and spelling errors, as well as improving sentence structure and flow. </p>
+                <a href="#">Learn more..</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Content Development</h2>
+                 <p>Content development involves creating engaging and valuable material tailored to a specific audience and platform. It includes research, ideation, writing, and optimization to meet business objectives and user needs. </p>
+                <a href="#">Learn more..</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./work-1.png" alt="image">
+                <div class="layer">
+                    <h3>Ed-Tech Website</h3>
+                    <p>Skill Zilla is an Ed-Tech Platform Where anyone can learn the technical and the managemental skills with a ai chatbot feature for solving the doubts!</p>
+                    <a href="https://skilzilla.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-2.png" alt="image">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>A Landing page of Shoe done under the internship program of Oasis InfoByte which shows lots of differnt types of shoes!</p>
+                    <a href="https://lppage.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-3.png" alt="image">
+                <div class="layer">
+                    <h3>To-Do List </h3>
+                    <p>A to do list web application which is done aas a part of internship in codtech IT Solutions and in this we can add and remove the tasks what we have done !</p>
+                    <a href="https://to-do-codtech.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>aafreenshaik961@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i>8639549375</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x-twitter.com"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aafreen-shaik-7b36a2273/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your e-mail" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Aafreen <i class="fa-regular fa-face-smile"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu()
+    {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+ 
+  <script>
+    const scriptURL =  'https://script.google.com/macros/s/AKfycbzlYxwKmkBifGpIYLwUSHyHUjMNNNqU6TaE9Grf9REiCV7PokxIaniVG2onMjy5zs0Y/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
